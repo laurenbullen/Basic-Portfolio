@@ -59,7 +59,7 @@
 }
 
 .bio-pic {
-	width: 30%;
+    width: 30%;
 	z-index: 2;
 	float: left;
 	margin: 5px 10px;
@@ -70,18 +70,13 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 10px;
 
 }
 
-.side-bar {
-	width: 270px;
-	background-color: #ffffff;
-	margin: auto;
-}
 
 .link-images {
-	width: 93%;
+	width: 100%;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -91,7 +86,7 @@ hr {
 	display: block;
 	border: 0;
 	border-top: 2px solid #999999;
-	width: 93%;	
+	width: 100%;	
 	padding: 0;
 	margin: auto;
 	margin-top: 15px;
