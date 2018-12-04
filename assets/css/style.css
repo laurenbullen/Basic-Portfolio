@@ -31,7 +31,10 @@
 
 .main-section {
 	background-color: #ffffff;
-	width: 650px;
+    width: 650px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
 }
 
 .background-picture {
