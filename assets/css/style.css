@@ -1,4 +1,4 @@
-/* Stylesheet for index, contact, and portfolio pages*/
+
 .header-bar {
 	background-color: #ffffff;
 	width: 100%;
@@ -29,12 +29,15 @@
 	right: 330px;
 }
 
+/*.background {
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/folk-pattern-black/");
+}*/
 
 .main-section {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 650px;
-    height: 400px;
+    height: 415px;
     padding: 10px;
     margin: auto;
 }
@@ -56,8 +59,11 @@
     font-weight: bold;
 	text-align: right;
 	padding: 10px;
-   
+	position: relative;
 		
+}
+a:hover { 
+	color: blue; 
 }
 
 .bio-pic {
@@ -74,13 +80,6 @@ p {
 	padding-left: 20px;
 	padding-right: 10px;
 
-}
-
-
-.link-images {
-	width: 100%;
-	text-align: center;
-	padding-bottom: 10px;
 }
 
 
@@ -134,8 +133,14 @@ h4 {
 	float: left;
 }
 
+.rotate:hover  {
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
+  }
 
-/* Opaque Placeholder for Footer to move to bottom*/
 .footer-zone {
 	background-color: #666666;
 	width: 100%;
@@ -153,8 +158,6 @@ h4 {
 	text-align: center;
 	padding: 10px 0px;
 	color: #ffffff;
-	margin-top: 30px;
-	/* Teal Border Above Footer*/
 	border-top: 6px solid #4aaaa5;
 }
 
